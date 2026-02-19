@@ -28,6 +28,7 @@ Ara dins del plugging, entrarem en l'usuari editor que hem creat per a generar l
 Entrarem dins del contenedor amb la comanda `sudo docker exec -it my-wordpress_wordpress_1 bash`
 I modificarem el archiu `wp-config.php`
 I com podeu vore a la imatge afegirem les linies de configuracio per a definir la JWT_AUTH_SECRET_KET, per a que el plugging puga validar les nostres peticions
+
 <img width="804" height="611" alt="image" src="https://github.com/user-attachments/assets/ecd51638-81ee-49b2-8898-dab2ad84d91c" />
 
 ---
@@ -53,6 +54,7 @@ Per a fer servir els htmls anteriors farem servir la comanda `python -m http.ser
 Aqui es on muntarem els nostres fitxers
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/32bc943c-d5ca-43a7-b15e-6054d1ca15d0" />
 
+
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/aa0191c3-c823-474e-86cb-e6c033297c79" />
 
 ---
@@ -61,6 +63,7 @@ Aqui es on muntarem els nostres fitxers
 
 Aqui podrem vore totes les pagines que hem muntat a la web
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/3ae9e8d7-1d46-47c8-96b4-391f25c0d734" />
+
 
 I aixi quedaria la nostra web una vegada hem muntat totes les pagines
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/4d4ec884-236d-4946-adc9-8c7be6a4fd5b" />
